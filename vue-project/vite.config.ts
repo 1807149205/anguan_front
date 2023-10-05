@@ -8,6 +8,7 @@ export default defineConfig({
   plugins: [
     vue(),
   ],
+  base: './', // 使用相对路径
   build: {
     // 设置输出目录，将构建后的文件输出到指定目录，可以是相对或绝对路径
     outDir: '../', // 默认是 'dist'
